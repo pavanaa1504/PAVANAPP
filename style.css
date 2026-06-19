@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+header {
+    background: rgba(0,120,255,0.95);
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 40px;
+    position:sticky;
+    top:0;
+}
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ffe600;
+}
+
+section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+button{
+    background:linear-gradient(90deg,#ff9800,#ff5722);
+    color:white;
+    border:none;
+    padding:15px 35px;
+    border-radius:50px;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.08);
+}
+button{
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.08);
+}
+#apps{
+    text-align:center;
+    padding:60px 20px;
+}
+
+#apps h2{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.app-card{
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    transition: 0.3s;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.app-card:hover{
+    transform: translateY(-12px);
+    box-shadow: 0 15px 40px rgba(0,120,255,0.25);
+}
+.app-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,120,255,0.25);
+}
+
+.app-card h3 {
+    color: #0078ff;
+}
+.hero{
+    background: linear-gradient(135deg,#0078ff,#00c6ff);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h2{
+    font-size:60px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    max-width:700px;
+    margin:auto;
+    margin-bottom:30px;
+}
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+}
+body{
+    animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+    }
+
+    to{
+        opacity:1;
+    }
+
+}
+.apps-container{
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+    gap:30px;
+    flex-wrap:wrap;
+    padding:20px;
+}
+.hero{
+    background: linear-gradient(135deg, #0078ff, #00c6ff);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-content{
+    max-width: 800px;
+    margin: auto;
+}
+
+.hero h2{
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 18px;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+.app-card button{
+    background: #0078ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.app-card button:hover{
+    background: #005ecb;
+    transform: scale(1.05);
+}
+.app-card::before{
+    content: "FREE";
+    position: absolute;
+    top: 12px;
+    right: -30px;
+    background: #00c853;
+    color: white;
+    padding: 5px 40px;
+    font-size: 12px;
+    transform: rotate(45deg);
+}
+.app-card p{
+    margin: 8px 0;
+}
+
+.app-card p:last-of-type{
+    color: #555;
+    font-size: 14px;
+}
+.app-card img{
+    width:220px;
+    height:auto;
+    display:block;
+    margin:20px auto;
+    border-radius:15px;
+}
+button{
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.08);
+}
+#features{
+    padding:70px 20px;
+    text-align:center;
+    background:#f5f7ff;
+}
+
+.features-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.feature-box{
+    background:white;
+    width:250px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.feature-box:hover{
+    transform:translateY(-10px);
+}
+
+.feature-box h3{
+    color:#2563eb;
+}
+.phone-frame{
+    width:240px;
+    background:black;
+    padding:12px;
+    border-radius:30px;
+    margin:20px auto;
+    box-shadow:0 10px 30px rgba(0,0,0,0.25);
+}
+
+.phone-frame img{
+    width:100%;
+    border-radius:20px;
+    display:block;
+}
